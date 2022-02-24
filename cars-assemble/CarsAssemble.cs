@@ -2,6 +2,7 @@ using System;
 
 static class AssemblyLine
 {
+    private const int carPerHour = 221;
     public static double SuccessRate(int speed)
     {
         if (speed == 0)
@@ -24,16 +25,15 @@ static class AssemblyLine
         {
             return 0.77; // 77%
         }
-        throw new NotImplementedException("Please implement the (static) AssemblyLine.SuccessRate() method");
     }
 
     public static double ProductionRatePerHour(int speed)
     {
-        throw new NotImplementedException("Please implement the (static) AssemblyLine.ProductionRatePerHour() method");
+        return carPerHour * speed * SuccessRate(speed);
     }
 
     public static int WorkingItemsPerMinute(int speed)
     {
-        throw new NotImplementedException("Please implement the (static) AssemblyLine.WorkingItemsPerMinute() method");
+        return (int)ProductionRatePerHour(speed) / 60;
     }
 }
