@@ -1,1 +1,1 @@
-# exercismCSharp
+These are proposed challenges by Exercism.org to solidify knowledge with C#;
