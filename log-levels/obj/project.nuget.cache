@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HzxXSTQK3xfP5LBU/EVXGiqudRj/t+dqrTlnWfcXNXEfRHaefPxmCX/jnEXIetMWqSbMEjaL9LVzsxRucahaZA==",
+  "dgSpecHash": "trj48ZbjD5dGHcOTgipgJFyJDVMc4wlc4QOWmMnIKToynEgnTdEno7d7m6ucnFTuomhTs28t15TWYfDD7L+E3A==",
   "success": true,
-  "projectFilePath": "d:\\Projetos\\C#\\Exercism\\exercismCSharp\\log-levels\\LogLevels.csproj",
+  "projectFilePath": "C:\\Users\\Raphilske\\Exercism\\csharp\\log-levels\\LogLevels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raphilske\\.nuget\\packages\\exercism.tests\\0.1.0-beta1\\exercism.tests.0.1.0-beta1.nupkg.sha512",
     "C:\\Users\\Raphilske\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
